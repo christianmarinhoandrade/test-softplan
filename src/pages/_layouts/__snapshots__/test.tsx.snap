@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> should render layout 1`] = `
+.c0 {
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: white;
+  top: 0px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.c2 {
+  padding: 0.5rem 0;
+}
+
+.c2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.c3 {
+  background: #001965;
+  padding: 3rem 1rem 0 1rem;
+  height: 10rem;
+  text-align: center;
+  color: #3b97de;
+}
+
+.c3 img {
+  width: 30px;
+  height: 30px;
+}
+
+.c3 p {
+  margin-top: 1rem;
+}
+
+<div
+  class="App"
+>
+  <header
+    class="c0"
+  >
+    <nav
+      class="c1 container"
+    >
+      <a
+        aria-label="Dogs - Home"
+        class="c2"
+        href="/pais/list"
+      >
+        <img
+          alt="Logo"
+          src="test-file-stub"
+        />
+      </a>
+    </nav>
+  </header>
+  <main
+    class="AppBody"
+  >
+    <section
+      class="container"
+    >
+      <div />
+    </section>
+  </main>
+  <footer
+    class="c3"
+  >
+    <img
+      alt="Logo"
+      src="test-file-stub"
+    />
+    <p>
+      Softplan | 
+      2021
+    </p>
+  </footer>
+</div>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> Renders with error 1`] = `
+.c0 {
+  margin-bottom: 1rem;
+}
+
+.c0 label: {
+  font-size: 1rem;
+  line-height: 1;
+  padding-bottom: 0.5rem;
+}
+
+.c1 {
+  border: 1px solid red;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  background-color: #eee;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.c1 :focus,
+.c1:hover {
+  outline: none;
+  background: #fff;
+  border-color: #3b97de;
+}
+
+.c2 {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+<div
+  class="c0"
+>
+  <label
+    for="textfield"
+  >
+    TextField
+  </label>
+  <input
+    class="c1"
+    id="textfield"
+    name="textfield"
+  />
+  <p
+    class="c2"
+  >
+    Error message
+  </p>
+</div>
+`;
